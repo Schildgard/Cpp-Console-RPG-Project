@@ -8,8 +8,8 @@ It utilizes the Standard Template Library like I/O or chrono for Gameplay Mechan
  </div>
 
 ## Framerate Control
-The framerate is controlled by using the chrono library. On each loop iteration the current time is saved in a time point of the high_resolution_clock class.  
-At the end of the iteration the current time is saved in another time point which gehts compared to the desired frameTime. It continues as soon the desired frameTime  
+The framerate is controlled by using the chrono library. On each loop iteration the current time is saved in a time point of the high_resolution_clock class.
+At the end of the iteration the current time is saved in another time point which gehts compared to the desired frameTime. It continues as soon the desired frameTime
 is reached and increments the frameCounter.
 <div align="center">
 <img src="https://github.com/user-attachments/assets/42f9c5ec-d9a5-486c-af8d-897e00139d45" alt="SK_Titlescreen" width = "400"/>  
